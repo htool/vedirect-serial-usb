@@ -1,29 +1,85 @@
 {
-  "name": "@signalk/vedirect-serial-usb",
-  "version": "1.0.2",
-  "description": "Signal K Node.js server plugin to read VE.Direct data via serial USB",
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha",
-    "push": "npm publish --access public --scope @signalk ."
+  "_from": "@signalk/vedirect-serial-usb@1.1.0",
+  "_id": "@signalk/vedirect-serial-usb@1.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-RQYo48tZyHBZ5gG80IwIeUSZ1mrCU+DD6zn/YdPYsxUwuIKLwl7K4I+NCF2RDCrFSES7f4lQL44RJCeXHFA/QA==",
+  "_location": "/@signalk/vedirect-serial-usb",
+  "_phantomChildren": {
+    "@serialport/parser-inter-byte-timeout": "9.0.1",
+    "bindings": "1.5.0",
+    "detect-libc": "1.0.3",
+    "expand-template": "2.0.3",
+    "github-from-package": "0.0.0",
+    "minimist": "1.2.5",
+    "mkdirp-classic": "0.5.3",
+    "ms": "2.1.2",
+    "nan": "2.14.2",
+    "napi-build-utils": "1.0.2",
+    "node-abi": "2.19.3",
+    "noop-logger": "0.1.1",
+    "npmlog": "4.1.2",
+    "pump": "3.0.0",
+    "rc": "1.2.8",
+    "simple-get": "3.1.0",
+    "tar-fs": "2.1.1",
+    "tunnel-agent": "0.6.0",
+    "which-pm-runs": "1.0.0"
   },
-  "keywords": [
-    "signalk-node-server-plugin"
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@signalk/vedirect-serial-usb@1.1.0",
+    "name": "@signalk/vedirect-serial-usb",
+    "escapedName": "@signalk%2fvedirect-serial-usb",
+    "scope": "@signalk",
+    "rawSpec": "1.1.0",
+    "saveSpec": null,
+    "fetchSpec": "1.1.0"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
   ],
-  "author": "Joachim Bakke <github@heiamoss.com> & Fabian Tollenaar <fabian@decipher.industries> (https://decipher.industries)",
-  "license": "Apache-2.0",
-  "homepage": "https://github.com/SignalK/vedirect-serial-usb#readme",
+  "_resolved": "https://registry.npmjs.org/@signalk/vedirect-serial-usb/-/vedirect-serial-usb-1.1.0.tgz",
+  "_shasum": "2f11a16b1bcb0ac98338bc9751f986ab99cbe185",
+  "_spec": "@signalk/vedirect-serial-usb@1.1.0",
+  "_where": "/home/pi/.signalk",
+  "author": {
+    "name": "Joachim Bakke",
+    "email": "github@heiamoss.com",
+    "url": "https://decipher.industries"
+  },
   "bugs": {
     "url": "https://github.com/SignalK/vedirect-serial-usb/issues"
   },
-  "repository": {
-    "type" : "git",
-    "url" : "https://github.com/SignalK/vedirect-serial-usb"
-  },
+  "bundleDependencies": false,
   "contributors": [],
   "dependencies": {
     "debug": "^4.0.1",
-    "serialport": "^7.0.2"
+    "package-lock.json": "^1.0.0",
+    "serialport": "^9.0.0"
+  },
+  "deprecated": false,
+  "description": "Signal K Node.js server plugin to read VE.Direct data via serial USB",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-things": "^0.2.0",
+    "mocha": "^6.0.0"
+  },
+  "homepage": "https://github.com/SignalK/vedirect-serial-usb#readme",
+  "keywords": [
+    "signalk-node-server-plugin"
+  ],
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "name": "@signalk/vedirect-serial-usb",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SignalK/vedirect-serial-usb.git"
+  },
+  "scripts": {
+    "push": "npm publish --access public --scope @signalk .",
+    "test": "mocha"
   },
   "standard": {
     "globals": [
@@ -33,9 +89,5 @@
       "before"
     ]
   },
-  "devDependencies": {
-    "chai": "^4.1.2",
-    "chai-things": "^0.2.0",
-    "mocha": "^5.2.0"
-  }
+  "version": "1.1.0"
 }
