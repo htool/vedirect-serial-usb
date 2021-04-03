@@ -41,7 +41,12 @@ module.exports = function (app) {
         type: 'string',
         title: 'Solar name in SK path',
         default: 'Main'
-      }
+      },
+      ignoreChecksum: {
+       type: 'boolean',
+       title: 'Ignore Checksum',
+       default: true
+     }
     }
   }
 
